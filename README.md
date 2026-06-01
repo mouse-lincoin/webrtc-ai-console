@@ -35,6 +35,14 @@
 - Mac mini：**Cursor API Key** → [Dashboard → Integrations](https://cursor.com/dashboard/integrations)
 - **外网联调**：`ROOM_ACCESS_TOKEN` + 公网 **WSS**；4G 建议另有 **TURN**（见部署文档）
 
+## 在线演示（GitHub Pages）
+
+仅托管 **聊天前端**（静态页）：
+
+**https://mouse-lincoin.github.io/webrtc-ai-console/**
+
+信令与 Cursor Agent 仍需在 Mac 本地运行 `pnpm dev:host`，再在连接页填写 Mac 局域网或 Cloudflare 隧道的 WSS 地址。
+
 ## 快速开始（局域网）
 
 ```bash
