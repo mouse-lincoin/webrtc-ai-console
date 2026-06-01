@@ -1,0 +1,19 @@
+{
+  "name": "webrtc-ai-console",
+  "private": true,
+  "version": "0.2.0",
+  "description": "手机 ↔ Mac mini WebRTC 聊天式 AI 控制台",
+  "license": "MIT",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "dev:host": "pnpm --filter @webrtc-ai-console/host dev",
+    "dev:client": "pnpm --filter @webrtc-ai-console/client dev",
+    "build": "pnpm -r run build",
+    "build:client": "pnpm --filter @webrtc-ai-console/client build",
+    "typecheck": "pnpm -r run typecheck",
+    "gen-token": "node scripts/gen-token.mjs"
+  },
+  "packageManager": "pnpm@9.15.0"
+}
