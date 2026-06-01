@@ -1,5 +1,7 @@
 # webrtc-ai-console
 
+[English](./README.en.md) | [简体中文](./README.md)
+
 用手机 ↔ Mac mini 之间的 **WebRTC 聊天** 做轻量控制台：手机发指令，Mac 在本地跑 AI（Cursor SDK），再把结果 **流式** 推回聊天窗。
 
 > 阶段目标：**最小可连通的 WebRTC 聊天** → **接入 Cursor SDK 的本地 Agent 原型**。
@@ -150,7 +152,7 @@ pnpm dev:client
 
 | 阶段 | 内容 | 状态 |
 |------|------|------|
-| M0 | README / PRD / 仓库骨架 | ✅ |
+| M0 | README（中/英）/ PRD / 仓库骨架 | ✅ |
 | M1 | 信令 + DataChannel + echo | 🚧 浏览器 host 可 echo |
 | M2 | `@cursor/sdk` 本地 Agent 流式回传 | 🚧 占位 |
 | M3 | 房间 token、`joined`+ICE、TURN/coturn、连接页 | ✅ 首版 |
